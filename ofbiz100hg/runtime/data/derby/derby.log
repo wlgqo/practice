@@ -1,0 +1,30 @@
+----------------------------------------------------------------
+Tue Sep 17 16:07:08 CST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0141-2af5-6a7f-0000224c47fa 
+on database directory F:\workspace\ofbiz100hg\runtime\data\derby\ofbizolap  with class loader org.ofbiz.base.start.Classpath$NativeLibClassLoader@15c56d3 
+Loaded from file:/F:/workspace/ofbiz100hg/framework/entity/lib/jdbc/derby-10.8.2.2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_25-b17
+user.dir=F:\workspace\ofbiz100hg
+derby.system.home=runtime/data/derby
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Sep 17 16:07:09 CST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance 601a400f-0141-2af5-6a7f-0000224c47fa 
+on database directory F:\workspace\ofbiz100hg\runtime\data\derby\ofbiz  with class loader org.ofbiz.base.start.Classpath$NativeLibClassLoader@15c56d3 
+Loaded from file:/F:/workspace/ofbiz100hg/framework/entity/lib/jdbc/derby-10.8.2.2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_25-b17
+user.dir=F:\workspace\ofbiz100hg
+derby.system.home=runtime/data/derby
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Sep 17 16:07:10 CST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a094c023-0141-2af5-6a7f-0000224c47fa 
+on database directory F:\workspace\ofbiz100hg\runtime\data\derby\ofbiztenant  with class loader org.ofbiz.base.start.Classpath$NativeLibClassLoader@15c56d3 
+Loaded from file:/F:/workspace/ofbiz100hg/framework/entity/lib/jdbc/derby-10.8.2.2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_25-b17
+user.dir=F:\workspace\ofbiz100hg
+derby.system.home=runtime/data/derby
+Database Class Loader started - derby.database.classpath=''

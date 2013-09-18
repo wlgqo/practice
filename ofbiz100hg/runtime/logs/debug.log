@@ -1,0 +1,331 @@
+2013-09-17 16:07:07,203 (main) [    ContainerLoader.java:77 :INFO ] [Startup] Loading containers...
+2013-09-17 16:07:07,578 (main) [ ComponentContainer.java:180:INFO ] Auto-Loading component directory : [F:/workspace/ofbiz100hg/framework]
+2013-09-17 16:07:07,593 (main) [ ComponentContainer.java:241:INFO ] Loading component : [base]
+2013-09-17 16:07:07,609 (main) [ ComponentContainer.java:241:INFO ] Loading component : [geronimo]
+2013-09-17 16:07:07,625 (main) [ ComponentContainer.java:241:INFO ] Loading component : [sql]
+2013-09-17 16:07:07,625 (main) [ ComponentContainer.java:241:INFO ] Loading component : [entity]
+2013-09-17 16:07:07,640 (main) [ ComponentContainer.java:241:INFO ] Loading component : [catalina]
+2013-09-17 16:07:07,640 (main) [ ComponentContainer.java:241:INFO ] Loading component : [security]
+2013-09-17 16:07:07,656 (main) [ ComponentContainer.java:241:INFO ] Loading component : [datafile]
+2013-09-17 16:07:07,671 (main) [ ComponentContainer.java:241:INFO ] Loading component : [minilang]
+2013-09-17 16:07:07,671 (main) [ ComponentContainer.java:241:INFO ] Loading component : [common]
+2013-09-17 16:07:07,687 (main) [ ComponentContainer.java:241:INFO ] Loading component : [service]
+2013-09-17 16:07:07,703 (main) [ ComponentContainer.java:241:INFO ] Loading component : [entityext]
+2013-09-17 16:07:07,703 (main) [ ComponentContainer.java:241:INFO ] Loading component : [bi]
+2013-09-17 16:07:07,718 (main) [ ComponentContainer.java:241:INFO ] Loading component : [birt]
+2013-09-17 16:07:07,718 (main) [ ComponentContainer.java:241:INFO ] Loading component : [webapp]
+2013-09-17 16:07:07,734 (main) [ ComponentContainer.java:241:INFO ] Loading component : [widget]
+2013-09-17 16:07:07,734 (main) [ ComponentContainer.java:241:INFO ] Loading component : [appservers]
+2013-09-17 16:07:07,750 (main) [ ComponentContainer.java:241:INFO ] Loading component : [testtools]
+2013-09-17 16:07:07,750 (main) [ ComponentContainer.java:241:INFO ] Loading component : [webtools]
+2013-09-17 16:07:07,765 (main) [ ComponentContainer.java:241:INFO ] Loading component : [images]
+2013-09-17 16:07:07,765 (main) [ ComponentContainer.java:180:INFO ] Auto-Loading component directory : [F:/workspace/ofbiz100hg/themes]
+2013-09-17 16:07:07,765 (main) [ ComponentContainer.java:241:INFO ] Loading component : [bizznesstime]
+2013-09-17 16:07:07,781 (main) [ ComponentContainer.java:241:INFO ] Loading component : [bluelight]
+2013-09-17 16:07:07,781 (main) [ ComponentContainer.java:241:INFO ] Loading component : [droppingcrumbs]
+2013-09-17 16:07:07,781 (main) [ ComponentContainer.java:241:INFO ] Loading component : [flatgrey]
+2013-09-17 16:07:07,796 (main) [ ComponentContainer.java:241:INFO ] Loading component : [multiflex]
+2013-09-17 16:07:07,796 (main) [ ComponentContainer.java:241:INFO ] Loading component : [tomahawk]
+2013-09-17 16:07:07,796 (main) [ ComponentContainer.java:180:INFO ] Auto-Loading component directory : [F:/workspace/ofbiz100hg/applications]
+2013-09-17 16:07:07,796 (main) [ ComponentContainer.java:180:INFO ] Auto-Loading component directory : [F:/workspace/ofbiz100hg/specialpurpose]
+2013-09-17 16:07:07,796 (main) [ ComponentContainer.java:180:INFO ] Auto-Loading component directory : [F:/workspace/ofbiz100hg/hot-deploy]
+2013-09-17 16:07:07,812 (main) [ ComponentContainer.java:241:INFO ] Loading component : [yunchaoshi]
+2013-09-17 16:07:07,812 (main) [ ComponentContainer.java:149:INFO ] All components loaded
+2013-09-17 16:07:07,890 (main) [ClassLoaderContainer.java:50 :INFO ] CachedClassLoader created
+2013-09-17 16:07:07,921 (main) [DelegatorFactoryImpl.java:30 :INFO ] Creating new delegator [default] (main)
+2013-09-17 16:07:08,187 (main) [        ModelReader.java:436:INFO ] FINISHED LOADING ENTITIES - ALL FILES; #Entities=100 #ViewEntities=17 #Fields=933 #Relationships=105 #AutoRelationships=95
+2013-09-17 16:07:08,187 (main) [   GenericDelegator.java:234:INFO ] Doing entity definition check...
+2013-09-17 16:07:08,187 (main) [ ModelEntityChecker.java:508:INFO ] [initReservedWords] array length=1023
+2013-09-17 16:07:08,234 (OFBiz-config-0) [   GenericDelegator.java:262:INFO ] Delegator "default" initializing helper "localderby" for entity group "org.ofbiz".
+2013-09-17 16:07:08,234 (OFBiz-config-1) [   GenericDelegator.java:262:INFO ] Delegator "default" initializing helper "localderbyolap" for entity group "org.ofbiz.olap".
+2013-09-17 16:07:08,250 (OFBiz-config-0) [   GenericDelegator.java:273:INFO ] Doing database check as requested in entityengine.xml with addMissing=true
+2013-09-17 16:07:08,250 (OFBiz-config-1) [   GenericDelegator.java:273:INFO ] Doing database check as requested in entityengine.xml with addMissing=true
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:931:INFO ] Database Product Name is Apache Derby
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:932:INFO ] Database Product Version is 10.8.2.2 - (1181258)
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:940:INFO ] Database Driver Name is Apache Derby Embedded JDBC Driver
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:941:INFO ] Database Driver Version is 10.8.2.2 - (1181258)
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:942:INFO ] Database Driver JDBC Version is 4.0
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:951:INFO ] Database Setting/Support Information (those with a * should be true):
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - supports transactions     [true]*
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - isolation None            [false]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - isolation ReadCommitted   [true]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - isolation ReadUncommitted [true]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - isolation RepeatableRead  [true]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - isolation Serializable    [true]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - forward only type         [true]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - scroll sensitive type     [false]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - scroll insensitive type   [true]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - is case sensitive         [false]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - stores LowerCase          [false]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - stores MixedCase          [false]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - stores UpperCase          [true]
+2013-09-17 16:07:09,203 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - max table name length     [128]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - max column name length    [128]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - concurrent connections    [0]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - concurrent statements     [0]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ANSI SQL92 Entry          [true]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ANSI SQL92 Intermediate   [false]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ANSI SQL92 Full           [false]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ODBC SQL Grammar Core     [false]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ODBC SQL Grammar Extended [false]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ODBC SQL Grammar Minimum  [true]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - outer joins               [true]*
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - limited outer joins       [true]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - full outer joins          [false]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - group by                  [true]*
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - group by not in select    [true]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - column aliasing           [true]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - order by not in select    [false]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - alter table add column    [true]*
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - non-nullable column       [true]*
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:964:INFO ] - default fetchsize        [1]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:973:INFO ] - named parameters         [ SKIPPED ]
+2013-09-17 16:07:09,218 (OFBiz-config-1) [       DatabaseUtil.java:997:INFO ] Getting Table Info From Database
+2013-09-17 16:07:09,515 (OFBiz-config-1) [       DatabaseUtil.java:1134:INFO ] Getting Column Info From Database
+2013-09-17 16:07:09,906 (OFBiz-config-1) [       DatabaseUtil.java:1231:INFO ] Searching in 2 tables for primary key fields ...
+2013-09-17 16:07:09,906 (OFBiz-config-1) [       DatabaseUtil.java:1242:INFO ] Reviewed 2 primary key fields from database.
+2013-09-17 16:07:09,906 (OFBiz-config-1) [   GenericDelegator.java:262:INFO ] Delegator "default" initializing helper "localderbytenant" for entity group "org.ofbiz.tenant".
+2013-09-17 16:07:09,906 (OFBiz-config-1) [   GenericDelegator.java:273:INFO ] Doing database check as requested in entityengine.xml with addMissing=true
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:931:INFO ] Database Product Name is Apache Derby
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:932:INFO ] Database Product Version is 10.8.2.2 - (1181258)
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:940:INFO ] Database Driver Name is Apache Derby Embedded JDBC Driver
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:941:INFO ] Database Driver Version is 10.8.2.2 - (1181258)
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:942:INFO ] Database Driver JDBC Version is 4.0
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:951:INFO ] Database Setting/Support Information (those with a * should be true):
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - supports transactions     [true]*
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - isolation None            [false]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - isolation ReadCommitted   [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - isolation ReadUncommitted [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - isolation RepeatableRead  [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - isolation Serializable    [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - forward only type         [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - scroll sensitive type     [false]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - scroll insensitive type   [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - is case sensitive         [false]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - stores LowerCase          [false]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - stores MixedCase          [false]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - stores UpperCase          [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - max table name length     [128]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - max column name length    [128]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - concurrent connections    [0]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - concurrent statements     [0]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - ANSI SQL92 Entry          [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - ANSI SQL92 Intermediate   [false]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - ANSI SQL92 Full           [false]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - ODBC SQL Grammar Core     [false]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - ODBC SQL Grammar Extended [false]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - ODBC SQL Grammar Minimum  [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - outer joins               [true]*
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - limited outer joins       [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - full outer joins          [false]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - group by                  [true]*
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - group by not in select    [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - column aliasing           [true]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - order by not in select    [false]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - alter table add column    [true]*
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:956:INFO ] - non-nullable column       [true]*
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:964:INFO ] - default fetchsize        [1]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:973:INFO ] - named parameters         [ SKIPPED ]
+2013-09-17 16:07:10,250 (OFBiz-config-0) [       DatabaseUtil.java:997:INFO ] Getting Table Info From Database
+2013-09-17 16:07:10,296 (OFBiz-config-0) [       DatabaseUtil.java:1134:INFO ] Getting Column Info From Database
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:931:INFO ] Database Product Name is Apache Derby
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:932:INFO ] Database Product Version is 10.8.2.2 - (1181258)
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:940:INFO ] Database Driver Name is Apache Derby Embedded JDBC Driver
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:941:INFO ] Database Driver Version is 10.8.2.2 - (1181258)
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:942:INFO ] Database Driver JDBC Version is 4.0
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:951:INFO ] Database Setting/Support Information (those with a * should be true):
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - supports transactions     [true]*
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - isolation None            [false]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - isolation ReadCommitted   [true]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - isolation ReadUncommitted [true]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - isolation RepeatableRead  [true]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - isolation Serializable    [true]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - forward only type         [true]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - scroll sensitive type     [false]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - scroll insensitive type   [true]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - is case sensitive         [false]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - stores LowerCase          [false]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - stores MixedCase          [false]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - stores UpperCase          [true]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - max table name length     [128]
+2013-09-17 16:07:10,375 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - max column name length    [128]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - concurrent connections    [0]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - concurrent statements     [0]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ANSI SQL92 Entry          [true]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ANSI SQL92 Intermediate   [false]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ANSI SQL92 Full           [false]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ODBC SQL Grammar Core     [false]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ODBC SQL Grammar Extended [false]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - ODBC SQL Grammar Minimum  [true]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - outer joins               [true]*
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - limited outer joins       [true]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - full outer joins          [false]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - group by                  [true]*
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - group by not in select    [true]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - column aliasing           [true]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - order by not in select    [false]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - alter table add column    [true]*
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:956:INFO ] - non-nullable column       [true]*
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:964:INFO ] - default fetchsize        [1]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:973:INFO ] - named parameters         [ SKIPPED ]
+2013-09-17 16:07:10,390 (OFBiz-config-1) [       DatabaseUtil.java:997:INFO ] Getting Table Info From Database
+2013-09-17 16:07:10,406 (OFBiz-config-1) [       DatabaseUtil.java:1134:INFO ] Getting Column Info From Database
+2013-09-17 16:07:10,437 (OFBiz-config-0) [       DatabaseUtil.java:1231:INFO ] Searching in 94 tables for primary key fields ...
+2013-09-17 16:07:10,453 (OFBiz-config-1) [       DatabaseUtil.java:1231:INFO ] Searching in 4 tables for primary key fields ...
+2013-09-17 16:07:10,453 (OFBiz-config-1) [       DatabaseUtil.java:1242:INFO ] Reviewed 6 primary key fields from database.
+2013-09-17 16:07:10,562 (OFBiz-config-0) [       DatabaseUtil.java:1242:INFO ] Reviewed 130 primary key fields from database.
+2013-09-17 16:07:10,640 (main) [  GenericDispatcher.java:69 :INFO ] Creating new dispatcher [entity-default] (main)
+2013-09-17 16:07:10,656 (main) [  ServiceDispatcher.java:89 :INFO ] [ServiceDispatcher] : Creating new instance.
+2013-09-17 16:07:10,671 (main) [ ServiceGroupReader.java:88 :INFO ] Loaded [1] Group definitions from file:/F:/workspace/ofbiz100hg/framework/common/servicedef/groups_test.xml
+2013-09-17 16:07:10,671 (main) [ ServiceGroupReader.java:88 :INFO ] Loaded [4] Group definitions from file:/F:/workspace/ofbiz100hg/framework/entityext/servicedef/groups.xml
+2013-09-17 16:07:10,687 (OFBiz-config-1) [     ServiceEcaUtil.java:124:INFO ] Loaded [ 4] Service ECA Rules from file:/F:/workspace/ofbiz100hg/framework/common/servicedef/secas_test.xml
+2013-09-17 16:07:10,687 (OFBiz-config-0) [     ServiceEcaUtil.java:124:INFO ] Loaded [ 0] Service ECA Rules from file:/F:/workspace/ofbiz100hg/framework/common/servicedef/secas_cdyne.xml
+2013-09-17 16:07:10,703 (OFBiz-config-1) [     ServiceEcaUtil.java:124:INFO ] Loaded [ 3] Service ECA Rules from file:/F:/workspace/ofbiz100hg/framework/service/servicedef/secas_test_se.xml
+2013-09-17 16:07:10,781 (main) [         JobManager.java:256:INFO ] No crashed jobs to re-schedule
+2013-09-17 16:07:10,781 (org.ofbiz.service.jms.JmsListenerFactory@1bdbb15) [ JmsListenerFactory.java:79 :INFO ] Starting JMS Listener Factory Thread
+2013-09-17 16:07:10,812 (OFBiz-config-1) [ ModelServiceReader.java:189:INFO ] Loaded [  2] Services from file:/F:/workspace/ofbiz100hg/framework/common/servicedef/services_cdyne.xml
+2013-09-17 16:07:10,828 (OFBiz-config-1) [ ModelServiceReader.java:189:INFO ] Loaded [ 15] Services from file:/F:/workspace/ofbiz100hg/framework/common/servicedef/services_email.xml
+2013-09-17 16:07:10,828 (OFBiz-config-1) [ ModelServiceReader.java:189:INFO ] Loaded [  2] Services from file:/F:/workspace/ofbiz100hg/framework/common/servicedef/services_olap.xml
+2013-09-17 16:07:10,828 (OFBiz-config-0) [ ModelServiceReader.java:189:INFO ] Loaded [ 95] Services from file:/F:/workspace/ofbiz100hg/framework/common/servicedef/services.xml
+2013-09-17 16:07:10,843 (OFBiz-config-0) [ ModelServiceReader.java:189:INFO ] Loaded [ 42] Services from file:/F:/workspace/ofbiz100hg/framework/common/servicedef/services_test.xml
+2013-09-17 16:07:10,875 (OFBiz-config-1) [ ModelServiceReader.java:189:INFO ] Loaded [ 13] Services from file:/F:/workspace/ofbiz100hg/framework/common/servicedef/services_security.xml
+2013-09-17 16:07:10,875 (OFBiz-config-0) [ ModelServiceReader.java:189:INFO ] Loaded [ 11] Services from file:/F:/workspace/ofbiz100hg/framework/service/servicedef/services.xml
+2013-09-17 16:07:10,875 (OFBiz-config-1) [ ModelServiceReader.java:189:INFO ] Loaded [ 18] Services from file:/F:/workspace/ofbiz100hg/framework/service/servicedef/services_test_se.xml
+2013-09-17 16:07:10,890 (OFBiz-config-1) [ ModelServiceReader.java:189:INFO ] Loaded [  3] Services from file:/F:/workspace/ofbiz100hg/framework/bi/servicedef/services.xml
+2013-09-17 16:07:10,890 (OFBiz-config-1) [ ModelServiceReader.java:189:INFO ] Loaded [  1] Services from file:/F:/workspace/ofbiz100hg/framework/birt/servicedef/services.xml
+2013-09-17 16:07:10,890 (OFBiz-config-0) [ ModelServiceReader.java:189:INFO ] Loaded [ 41] Services from file:/F:/workspace/ofbiz100hg/framework/entityext/servicedef/services.xml
+2013-09-17 16:07:10,906 (OFBiz-config-1) [ ModelServiceReader.java:189:INFO ] Loaded [  1] Services from file:/F:/workspace/ofbiz100hg/framework/testtools/servicedef/services.xml
+2013-09-17 16:07:10,906 (OFBiz-config-0) [ ModelServiceReader.java:189:INFO ] Loaded [ 10] Services from file:/F:/workspace/ofbiz100hg/framework/webtools/servicedef/services.xml
+2013-09-17 16:07:10,906 (OFBiz-config-0) [     ServiceEcaUtil.java:124:INFO ] Loaded [ 0] Service ECA Rules from file:/F:/workspace/ofbiz100hg/framework/common/servicedef/secas_cdyne.xml
+2013-09-17 16:07:10,906 (OFBiz-config-1) [     ServiceEcaUtil.java:124:INFO ] Loaded [ 4] Service ECA Rules from file:/F:/workspace/ofbiz100hg/framework/common/servicedef/secas_test.xml
+2013-09-17 16:07:10,921 (OFBiz-config-0) [     ServiceEcaUtil.java:124:INFO ] Loaded [ 3] Service ECA Rules from file:/F:/workspace/ofbiz100hg/framework/service/servicedef/secas_test_se.xml
+2013-09-17 16:07:11,062 (main) [  CatalinaContainer.java:372:INFO ] createHost(StandardEngine[default-server], 0.0.0.0)
+2013-09-17 16:07:11,078 (main) [  CatalinaContainer.java:512:INFO ] Creating connector for address='0.0.0.0' port='8009' protocol='ajp'
+2013-09-17 16:07:11,156 (main) [  CatalinaContainer.java:512:INFO ] Creating connector for address='0.0.0.0' port='8080' protocol='http'
+2013-09-17 16:07:11,171 (main) [  CatalinaContainer.java:512:INFO ] Creating connector for address='0.0.0.0' port='8443' protocol='https'
+2013-09-17 16:07:11,421 (main) [    ContainerLoader.java:223:INFO ] [Startup] Starting containers...
+2013-09-17 16:07:11,437 (main) [  GenericDispatcher.java:69 :INFO ] Creating new dispatcher [RMIDispatcher] (main)
+2013-09-17 16:07:12,015 (main) [  CatalinaContainer.java:562:INFO ] createContext(yunchaoshi)
+2013-09-17 16:07:12,015 (main) [  CatalinaContainer.java:562:INFO ] createContext(tomahawk)
+2013-09-17 16:07:12,015 (main) [  CatalinaContainer.java:562:INFO ] createContext(multiflex)
+2013-09-17 16:07:12,015 (main) [  CatalinaContainer.java:562:INFO ] createContext(flatgrey)
+2013-09-17 16:07:12,015 (main) [  CatalinaContainer.java:562:INFO ] createContext(droppingcrumbs)
+2013-09-17 16:07:12,015 (main) [  CatalinaContainer.java:562:INFO ] createContext(bluelight)
+2013-09-17 16:07:12,015 (main) [  CatalinaContainer.java:562:INFO ] createContext(bizznesstime)
+2013-09-17 16:07:12,015 (main) [  CatalinaContainer.java:562:INFO ] createContext(images)
+2013-09-17 16:07:12,031 (main) [  CatalinaContainer.java:562:INFO ] createContext(webtools)
+2013-09-17 16:07:12,031 (main) [  CatalinaContainer.java:562:INFO ] createContext(bi)
+2013-09-17 16:07:12,078 (catalina-startup-1) [  CatalinaContainer.java:681:INFO ] host[StandardEngine[default-server].StandardHost[0.0.0.0]].addChild(StandardEngine[default-server].StandardHost[0.0.0.0].StandardContext[/tomahawk])
+2013-09-17 16:07:12,078 (catalina-startup-0) [  CatalinaContainer.java:681:INFO ] host[StandardEngine[default-server].StandardHost[0.0.0.0]].addChild(StandardEngine[default-server].StandardHost[0.0.0.0].StandardContext[/yunchaoshi])
+2013-09-17 16:07:12,437 (catalina-startup-0) [  GenericDispatcher.java:69 :INFO ] Creating new dispatcher [yunchaoshi] (catalina-startup-0)
+2013-09-17 16:07:12,453 (catalina-startup-0) [     ControlServlet.java:74 :INFO ] LOADING WEBAPP [yunchaoshi] Open For Business - YunChaoShi Application, located at F:\workspace\ofbiz100hg\hot-deploy\yunchaoshi\webapp\yunchaoshi\
+2013-09-17 16:07:12,468 (catalina-startup-1) [  CatalinaContainer.java:681:INFO ] host[StandardEngine[default-server].StandardHost[0.0.0.0]].addChild(StandardEngine[default-server].StandardHost[0.0.0.0].StandardContext[/multiflex])
+2013-09-17 16:07:12,484 (catalina-startup-0) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 1 requests, 1 views in jndi:/0.0.0.0/yunchaoshi/WEB-INF/controller.xml
+2013-09-17 16:07:12,500 (catalina-startup-0) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 36 requests, 19 views in file:/F:/workspace/ofbiz100hg/framework/common/webcommon/WEB-INF/common-controller.xml
+2013-09-17 16:07:12,500 (catalina-startup-1) [  CatalinaContainer.java:681:INFO ] host[StandardEngine[default-server].StandardHost[0.0.0.0]].addChild(StandardEngine[default-server].StandardHost[0.0.0.0].StandardContext[/flatgrey])
+2013-09-17 16:07:12,546 (catalina-startup-1) [  CatalinaContainer.java:681:INFO ] host[StandardEngine[default-server].StandardHost[0.0.0.0]].addChild(StandardEngine[default-server].StandardHost[0.0.0.0].StandardContext[/droppingcrumbs])
+2013-09-17 16:07:12,718 (catalina-startup-1) [  CatalinaContainer.java:681:INFO ] host[StandardEngine[default-server].StandardHost[0.0.0.0]].addChild(StandardEngine[default-server].StandardHost[0.0.0.0].StandardContext[/bluelight])
+2013-09-17 16:07:12,750 (catalina-startup-0) [   FreeMarkerWorker.java:109:INFO ] loading properties: file:/F:/workspace/ofbiz100hg/framework/webapp/config/freemarkerTransforms.properties
+2013-09-17 16:07:12,750 (catalina-startup-1) [  CatalinaContainer.java:681:INFO ] host[StandardEngine[default-server].StandardHost[0.0.0.0]].addChild(StandardEngine[default-server].StandardHost[0.0.0.0].StandardContext[/bizznesstime])
+2013-09-17 16:07:12,781 (catalina-startup-0) [   FreeMarkerWorker.java:109:INFO ] loading properties: file:/F:/workspace/ofbiz100hg/framework/widget/config/freemarkerTransforms.properties
+2013-09-17 16:07:12,828 (catalina-startup-1) [  CatalinaContainer.java:681:INFO ] host[StandardEngine[default-server].StandardHost[0.0.0.0]].addChild(StandardEngine[default-server].StandardHost[0.0.0.0].StandardContext[/images])
+2013-09-17 16:07:12,828 (catalina-startup-0) [  GenericDispatcher.java:69 :INFO ] Creating new dispatcher [default] (catalina-startup-0)
+2013-09-17 16:07:12,875 (catalina-startup-1) [  CatalinaContainer.java:681:INFO ] host[StandardEngine[default-server].StandardHost[0.0.0.0]].addChild(StandardEngine[default-server].StandardHost[0.0.0.0].StandardContext[/webtools])
+2013-09-17 16:07:12,937 (catalina-startup-0) [  CatalinaContainer.java:681:INFO ] host[StandardEngine[default-server].StandardHost[0.0.0.0]].addChild(StandardEngine[default-server].StandardHost[0.0.0.0].StandardContext[/bi])
+2013-09-17 16:07:12,968 (catalina-startup-0) [  GenericDispatcher.java:69 :INFO ] Creating new dispatcher [bi] (catalina-startup-0)
+2013-09-17 16:07:12,968 (catalina-startup-1) [  GenericDispatcher.java:69 :INFO ] Creating new dispatcher [webtools] (catalina-startup-1)
+2013-09-17 16:07:12,968 (catalina-startup-0) [     ControlServlet.java:74 :INFO ] LOADING WEBAPP [bi] Open For Business - Business Intelligence, located at F:\workspace\ofbiz100hg\framework\bi\webapp\bi\
+2013-09-17 16:07:12,968 (catalina-startup-1) [     ControlServlet.java:74 :INFO ] LOADING WEBAPP [webtools] Open For Business - Web Tools, located at F:\workspace\ofbiz100hg\framework\webtools\webapp\webtools\
+2013-09-17 16:07:12,968 (catalina-startup-0) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 6 requests, 4 views in jndi:/0.0.0.0/bi/WEB-INF/controller.xml
+2013-09-17 16:07:13,000 (catalina-startup-1) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 109 requests, 68 views in jndi:/0.0.0.0/webtools/WEB-INF/controller.xml
+2013-09-17 16:07:13,015 (catalina-startup-1) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 27 requests, 11 views in file:/F:/workspace/ofbiz100hg/framework/common/webcommon/WEB-INF/portal-controller.xml
+2013-09-17 16:07:13,015 (catalina-startup-1) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 30 requests, 13 views in file:/F:/workspace/ofbiz100hg/framework/common/webcommon/WEB-INF/security-controller.xml
+2013-09-17 16:07:13,031 (catalina-startup-1) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 5 requests, 0 views in file:/F:/workspace/ofbiz100hg/framework/common/webcommon/WEB-INF/tempexpr-controller.xml
+2013-09-17 16:07:13,031 (catalina-startup-1) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 9 requests, 1 views in file:/F:/workspace/ofbiz100hg/framework/testtools/webapp/testtools/WEB-INF/controller.xml
+2013-09-17 16:07:13,046 (main) [  CatalinaContainer.java:253:INFO ] Connector AJP/1.3 @ 8009 - not-secure [org.apache.coyote.ajp.AjpProtocol] started.
+2013-09-17 16:07:13,046 (main) [  CatalinaContainer.java:250:INFO ] Connector "http-bio-0.0.0.0-8080" @ 8080 - not-secure [org.apache.coyote.http11.Http11Protocol] started.
+2013-09-17 16:07:13,046 (main) [  CatalinaContainer.java:250:INFO ] Connector "http-bio-0.0.0.0-8443" @ 8443 - secure [org.apache.coyote.http11.Http11Protocol] started.
+2013-09-17 16:07:13,046 (main) [  CatalinaContainer.java:257:INFO ] Started Apache Tomcat/7.0.42
+2013-09-17 16:07:13,046 (main) [      BirtContainer.java:50 :INFO ] Start BIRT container
+2013-09-17 16:07:13,062 (main) [      BirtContainer.java:70 :INFO ] Startup BIRT platform
+2013-09-17 16:07:13,500 (main) [      BirtContainer.java:77 :INFO ] Create factory object
+2013-09-17 16:07:13,546 (main) [      BirtContainer.java:83 :INFO ] Create report engine
+2013-09-17 16:07:13,828 (main) [      BirtContainer.java:97 :INFO ] BIRT supported formats: xls, postscript, pdf, doc, odp, html, ods, odt, ppt
+2013-09-17 16:07:30,781 (org.ofbiz.service.jms.JmsListenerFactory@1bdbb15) [ JmsListenerFactory.java:89 :INFO ] JMS Listener Factory Thread Finished; All listeners connected.
+2013-09-17 16:07:37,859 (http-bio-0.0.0.0-8080-exec-1) [ControlEventListener.java:65 :INFO ] Creating session: BDCEBF6B10D6E495F6ADA19088681AD8.jvm1
+2013-09-17 16:07:37,875 (http-bio-0.0.0.0-8080-exec-1) [     ControlServlet.java:141:INFO ] [[[home(Domain:http://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2013-09-17 16:07:37,875 (http-bio-0.0.0.0-8080-exec-1) [       VisitHandler.java:232:INFO ] Found visitorId [null] in cookie
+2013-09-17 16:07:37,953 (http-bio-0.0.0.0-8080-exec-1) [       SequenceUtil.java:348:INFO ] Got bank of sequenced IDs for [Visitor]; curSeqId=10030, maxSeqId=10040, bankSize=10
+2013-09-17 16:07:38,031 (http-bio-0.0.0.0-8080-exec-1) [       SequenceUtil.java:348:INFO ] Got bank of sequenced IDs for [Visit]; curSeqId=10030, maxSeqId=10040, bankSize=10
+2013-09-17 16:07:38,062 (http-bio-0.0.0.0-8080-exec-1) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 1 requests, 1 views in jndi:/0.0.0.0/yunchaoshi/WEB-INF/controller.xml
+2013-09-17 16:07:38,062 (http-bio-0.0.0.0-8080-exec-1) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 36 requests, 19 views in file:/F:/workspace/ofbiz100hg/framework/common/webcommon/WEB-INF/common-controller.xml
+2013-09-17 16:07:38,078 (http-bio-0.0.0.0-8080-exec-1) [     RequestHandler.java:296:INFO ] This is the first request in this visit. sessionId=BDCEBF6B10D6E495F6ADA19088681AD8.jvm1
+2013-09-17 16:07:38,078 (http-bio-0.0.0.0-8080-exec-1) [     RequestHandler.java:763:INFO ] Rendering View [login], sessionId=BDCEBF6B10D6E495F6ADA19088681AD8.jvm1
+2013-09-17 16:07:38,078 (http-bio-0.0.0.0-8080-exec-1) [     UtilJ2eeCompat.java:69 :INFO ] serverInfo: apache tomcat/7.0.42
+2013-09-17 16:07:38,078 (http-bio-0.0.0.0-8080-exec-1) [     UtilJ2eeCompat.java:78 :INFO ] Apache Tomcat detected, using response.getWriter to write text out instead of response.getOutputStream
+2013-09-17 16:07:38,578 (http-bio-0.0.0.0-8080-exec-1) [     AbstractEngine.java:72 :INFO ] Loaded Service Locations : {main-rmi=rmi://localhost:1099/RMIDispatcher, main-http=http://localhost:8080/webtools/control/httpService, entity-sync-rmi=rmi://localhost:1099/RMIDispatcher, entity-sync-http=http://localhost:8080/webtools/control/httpService, rita-rmi=rmi://localhost:1099/RMIDispatcher, eedcc-test=http://localhost:8080/webtools/control/httpService}
+2013-09-17 16:07:38,671 (http-bio-0.0.0.0-8080-exec-1) [   FreeMarkerWorker.java:109:INFO ] loading properties: file:/F:/workspace/ofbiz100hg/framework/webapp/config/freemarkerTransforms.properties
+2013-09-17 16:07:38,671 (http-bio-0.0.0.0-8080-exec-1) [   FreeMarkerWorker.java:109:INFO ] loading properties: file:/F:/workspace/ofbiz100hg/framework/widget/config/freemarkerTransforms.properties
+2013-09-17 16:07:38,718 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:85 :INFO ] The following 3 scripting engines were found:
+2013-09-17 16:07:38,718 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:87 :INFO ] Engine name: Groovy Scripting Engine
+2013-09-17 16:07:38,718 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:88 :INFO ]   Version: 2.0
+2013-09-17 16:07:38,718 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:89 :INFO ]   Language: Groovy
+2013-09-17 16:07:38,718 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:92 :INFO ]   Engine supports the following extensions:
+2013-09-17 16:07:38,718 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:94 :INFO ]     groovy
+2013-09-17 16:07:38,718 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:99 :INFO ]   Engine has the following short names:
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:102:INFO ]     groovy
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:102:INFO ]     Groovy
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:87 :INFO ] Engine name: Mozilla Rhino
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:88 :INFO ]   Version: 1.7 release 3 PRERELEASE
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:89 :INFO ]   Language: ECMAScript
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:92 :INFO ]   Engine supports the following extensions:
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:94 :INFO ]     js
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:99 :INFO ]   Engine has the following short names:
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:102:INFO ]     js
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:102:INFO ]     rhino
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:102:INFO ]     JavaScript
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:102:INFO ]     javascript
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:102:INFO ]     ECMAScript
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:102:INFO ]     ecmascript
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:87 :INFO ] Engine name: BeanShell Engine
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:88 :INFO ]   Version: 1.0
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:89 :INFO ]   Language: BeanShell
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:92 :INFO ]   Engine supports the following extensions:
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:94 :INFO ]     bsh
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:94 :INFO ]     java
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:99 :INFO ]   Engine has the following short names:
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:102:INFO ]     beanshell
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:102:INFO ]     bsh
+2013-09-17 16:07:38,734 (http-bio-0.0.0.0-8080-exec-1) [         ScriptUtil.java:102:INFO ]     java
+2013-09-17 16:07:39,281 (http-bio-0.0.0.0-8080-exec-1) [      ScreenFactory.java:130:INFO ] Got 24 screens in 0.672s from: file:/F:/workspace/ofbiz100hg/framework/common/widget/CommonScreens.xml
+2013-09-17 16:07:39,312 (http-bio-0.0.0.0-8080-exec-1) [      ScreenFactory.java:130:INFO ] Got 1 screens in 0.0s from: file:/F:/workspace/ofbiz100hg/hot-deploy/yunchaoshi/widget/CommonScreens.xml
+2013-09-17 16:07:39,484 (http-bio-0.0.0.0-8080-exec-1) [     UtilProperties.java:1063:INFO ] ResourceBundle CommonUiLabels (zh_CN) created in 0.156s with 410 properties
+2013-09-17 16:07:39,515 (http-bio-0.0.0.0-8080-exec-1) [     UtilProperties.java:1063:INFO ] ResourceBundle YunchaoshiUiLabels (zh_CN) created in 0.015s with 4 properties
+2013-09-17 16:07:40,468 (http-bio-0.0.0.0-8080-exec-1) [  ServiceDispatcher.java:585:INFO ] Slow sync service execution detected: service [yunchaoshi/getVisualThemeResources] finished in [312] milliseconds
+2013-09-17 16:07:40,468 (http-bio-0.0.0.0-8080-exec-1) [  ServiceDispatcher.java:607:INFO ] Sync service [yunchaoshi/getVisualThemeResources] finished in [312] milliseconds with response [{themeResources={companyName=¹«Ë¾Ãû³Æ, javaScripts={/images/jquery/jquery-1.7.min.js, /images/jquery/ui/development-bundle/ui/jquery.ui.datepicker.js, /images/jquery/plugins/fjTimer/jquerytimer-min.js, /images/jquery/plugins/validate/jquery.validate.min.js, /images/jquery/plugins/jeditable/jquery.jeditable.js, /images/jquery/ui/js/jquery-ui-1.8.16.custom.min.js, /images/jquery/plugins/jquery.maskedinput-1.2.2.min.js, /images/jquery/plugins/datetimepicker/jquery-ui-timepicker-addon-0.9.7.js, /images/jquery/plugins/asmselect/jquery.asmselect-1.0.4a-beta.js, /images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-zh-CN.js, /images/jquery/plugins/validate/localization/messages_en.js, /images/jquery/ui/development-bundle/ui/i18n/jquery.ui.datepicker-zh-CN.js, /images/jquery/plugins/datejs/date-zh-CN.js, /images/selectall.js, /images/fieldlookup.js, /images/GooglemapMarkers.js, /images/getDependentDropdownValues.js, /images/selectMultipleRelatedValues.js}, styleSheets={/images/jquery/plugins/datetimepicker/jquery-ui-timepicker-addon-0.9.6.css, /images/jquery/plugins/asmselect/jquery.asmselect-1.0.4a-beta.css}, VT_DOCBOOKSTYLESHEET={/tomahawk/webapp/tomahawk/css/docbook.css}, VT_FTR_TMPLT_LOC={component://tomahawk/includes/footer.ftl}, VT_HDR_IMAGE_URL={/images/ofbiz_logo.gif}, VT_HDR_JAVASCRIPT={/tomahawk/js/dropdown.js}, VT_HDR_TMPLT_LOC={component://tomahawk/includes/header.ftl}, VT_HELPSTYLESHEET={/tomahawk/css/help.css}, VT_MSG_TMPLT_LOC={component://common/webcommon/includes/messages.ftl}, VT_NAME={TOMAHAWK}, VT_NAV_CLOSE_TMPLT={component://tomahawk/includes/appbarClose.ftl}, VT_NAV_OPEN_TMPLT={component://tomahawk/includes/appbarOpen.ftl}, VT_SCREENSHOT={/tomahawk/screenshot.jpg}, VT_SHORTCUT_ICON={/images/ofbiz.ico}, VT_STYLESHEET={/tomahawk/css/style.css}}, responseMessage=success}]
+2013-09-17 16:07:41,109 (http-bio-0.0.0.0-8080-exec-1) [       ServerHitBin.java:637:INFO ] Visit delegatorName=default, ServerHitBin delegatorName=default
+2013-09-17 16:07:41,125 (http-bio-0.0.0.0-8080-exec-1) [     ControlServlet.java:331:INFO ] [[[home(Domain:http://localhost)] Request Done- total:3.25,since last([home(Domain:http...):3.25]]
+2013-09-17 16:07:42,015 (ContainerBackgroundProcessor[StandardEngine[default-server].StandardHost[0.0.0.0]]) [ControlEventListener.java:107:INFO ] Destroying session: 00AE136F1924BA137104FC8BF4C29F76.jvm1
+2013-09-17 16:08:58,437 (http-bio-0.0.0.0-8443-exec-3) [     ControlServlet.java:141:INFO ] [[[login(Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2013-09-17 16:08:58,437 (http-bio-0.0.0.0-8443-exec-3) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 1 requests, 1 views in jndi:/0.0.0.0/yunchaoshi/WEB-INF/controller.xml
+2013-09-17 16:08:58,453 (http-bio-0.0.0.0-8443-exec-3) [    ConfigXMLReader.java:120:INFO ] controller loaded: 0.0s, 36 requests, 19 views in file:/F:/workspace/ofbiz100hg/framework/common/webcommon/WEB-INF/common-controller.xml
+2013-09-17 16:08:58,515 (http-bio-0.0.0.0-8443-exec-3) [  ServiceDispatcher.java:585:INFO ] Slow sync service execution detected: service [yunchaoshi/userLogin] finished in [62] milliseconds
+2013-09-17 16:08:58,593 (http-bio-0.0.0.0-8443-exec-3) [        LoginWorker.java:690:INFO ] Running autoLogin check.
+2013-09-17 16:08:58,593 (http-bio-0.0.0.0-8443-exec-3) [     RequestHandler.java:661:INFO ] Ran Event [java:org.ofbiz.webapp.control.LoginWorker#login] from [request], result is [success]
+2013-09-17 16:08:58,593 (http-bio-0.0.0.0-8443-exec-3) [     RequestHandler.java:492:INFO ] [Doing Previous Request]: /home sessionId=BDCEBF6B10D6E495F6ADA19088681AD8.jvm1
+2013-09-17 16:08:58,593 (http-bio-0.0.0.0-8443-exec-3) [     RequestHandler.java:720:INFO ] Sending redirect to: [http://localhost:8080/yunchaoshi/control/home;jsessionid=BDCEBF6B10D6E495F6ADA19088681AD8.jvm1], sessionId=BDCEBF6B10D6E495F6ADA19088681AD8.jvm1
+2013-09-17 16:08:58,593 (http-bio-0.0.0.0-8443-exec-3) [       ServerHitBin.java:637:INFO ] Visit delegatorName=default, ServerHitBin delegatorName=default
+2013-09-17 16:08:58,609 (http-bio-0.0.0.0-8443-exec-3) [     ControlServlet.java:331:INFO ] [[[login(Domain:https://localhost)] Request Done- total:0.172,since last([login(Domain:htt...):0.172]]
+2013-09-17 16:08:58,609 (http-bio-0.0.0.0-8080-exec-3) [     ControlServlet.java:141:INFO ] [[[home(Domain:http://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2013-09-17 16:08:58,625 (http-bio-0.0.0.0-8080-exec-3) [     RequestHandler.java:763:INFO ] Rendering View [home], sessionId=BDCEBF6B10D6E495F6ADA19088681AD8.jvm1
+2013-09-17 16:08:58,718 (http-bio-0.0.0.0-8080-exec-3) [      ScreenFactory.java:130:INFO ] Got 1 screens in 0.0s from: file:/F:/workspace/ofbiz100hg/hot-deploy/yunchaoshi/widget/YunchaoshiScreens.xml
+2013-09-17 16:08:58,734 (http-bio-0.0.0.0-8080-exec-3) [       ServerHitBin.java:637:INFO ] Visit delegatorName=default, ServerHitBin delegatorName=default
+2013-09-17 16:08:58,734 (http-bio-0.0.0.0-8080-exec-3) [     ControlServlet.java:331:INFO ] [[[home(Domain:http://localhost)] Request Done- total:0.125,since last([home(Domain:http...):0.125]]
+2013-09-17 16:11:53,640 (Thread-0) [    ContainerLoader.java:246:INFO ] Shutting down containers
+2013-09-17 16:11:53,828 (0.0.0.0-startStop-1) [  ServiceDispatcher.java:190:INFO ] De-Registering dispatcher: yunchaoshi
+2013-09-17 16:11:53,828 (0.0.0.0-startStop-1) [  ServiceDispatcher.java:190:INFO ] De-Registering dispatcher: RMIDispatcher
+2013-09-17 16:11:53,843 (0.0.0.0-startStop-1) [  ServiceDispatcher.java:190:INFO ] De-Registering dispatcher: webtools
+2013-09-17 16:11:53,843 (0.0.0.0-startStop-1) [  ServiceDispatcher.java:190:INFO ] De-Registering dispatcher: RMIDispatcher
+2013-09-17 16:11:53,859 (0.0.0.0-startStop-1) [  ServiceDispatcher.java:190:INFO ] De-Registering dispatcher: bi
+2013-09-17 16:11:53,859 (0.0.0.0-startStop-1) [  ServiceDispatcher.java:190:INFO ] De-Registering dispatcher: RMIDispatcher
+2013-09-17 16:11:53,859 (Thread-0) [  ServiceDispatcher.java:190:INFO ] De-Registering dispatcher: RMIDispatcher
