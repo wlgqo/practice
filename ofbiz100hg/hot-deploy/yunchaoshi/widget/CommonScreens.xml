@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screens xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/widget-screen.xsd">
+
+	<screen name="main-decorator">
+		<section>
+			<actions>
+				<property-map resource="CommonUiLabels" map-name="uiLabelMap"
+					global="true" />
+				<property-map resource="YunchaoshiUiLabels" map-name="uiLabelMap"
+					global="true" />
+				<set field="layoutSettings.companyName" from-field="uiLabelMap.YunchaoshiCompanyName"
+					global="true" />
+				<set field="activeApp" value="yunchaoshi" global="true" />
+				<set field="applicationMenuName" value="YunchaoshiAppBar" global="true" />
+				<set field="applicationMenuLocation" value="component://yunchaoshi/widget/YunchaoshiMenus.xml"
+					global="true" />
+			</actions>
+			<widgets>
+				<include-screen name="GlobalDecorator"
+					location="component://common/widget/CommonScreens.xml" />
+			</widgets>
+		</section>
+	</screen>
+</screens>

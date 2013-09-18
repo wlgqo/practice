@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<property key="YunchaoshiApplication">
+		<value xml:lang="en">Yunchaoshi Application</value>
+		<value xml:lang="zh">练习-应用</value>
+	</property>
+	<property key="YunchaoshiCompanyName">
+		<value xml:lang="en">CompanyName</value>
+		<value xml:lang="zh">公司名称</value>
+	</property>
+	<property key="YunchaoshiCreateEmp">
+		<value xml:lang="en">YunchaoshiCreateEmp</value>
+		<value xml:lang="zh">新建员工</value>
+	</property>
+	<property key="YunchaoshiCreateDept">
+		<value xml:lang="en">YunchaoshiCreateDept</value>
+		<value xml:lang="zh">新建部门</value>
+	</property>
+</resource>
